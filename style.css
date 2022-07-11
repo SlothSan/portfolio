@@ -31,9 +31,10 @@ body {
 }
 
 .nav-button-links {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     color: #FF8E00;
     text-decoration: none;
+    padding: 5px 10px;
 }
 
 .nav-button-links:hover { /*Add more button stuff in here to animate (Scale ?) */
@@ -53,10 +54,10 @@ body {
 @media screen and (min-width: 700px) {
     .nav-bar {
         justify-content: flex-end;
-        padding: 5px 10px 5px 10px;
     }
 
     .nav-button-links {
-        font-size: 1.2rem;
+        font-size: 1.6rem;
+        padding: 0px;
     }
 }

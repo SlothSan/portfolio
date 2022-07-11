@@ -199,6 +199,14 @@ body {
     color:#002347;
 }
 
+.portfolio-card-title {
+    font-size: 1.4rem;
+}
+
+.portfolio-card-text, .portfolio-card-link {
+    font-size: 1.2rem;
+}
+
 .portfolio-title {
     margin: 50px 0px;
     font-size: 1.6rem;
@@ -217,9 +225,7 @@ body {
     align-items: center;
 }
 
-.slash {
-    margin-bottom: 5px;
-}
+
 
 /* NEED TO ADD QUERIES FOR PORTFOLIIO SECTION!!!N!N!N */
 

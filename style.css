@@ -5,6 +5,7 @@ Orange #FF8E00
 
 * {
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -23,6 +24,8 @@ body {
     position: fixed;
     top: 0px;
     left: 0px;
+    z-index: 100;
+    border-bottom: 3px solid #FF8E00;
 }
 
 .links-container {
@@ -139,6 +142,20 @@ body {
     position: absolute;
     bottom: 5px;
 }
+
+.portfolio-section {
+    width: 100vw;
+    height: 100vh; /*Placeholder till cards are in then remove */
+    background: #002347;
+    
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
 
 
 @media screen and (min-width: 700px) {

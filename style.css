@@ -154,6 +154,50 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio-card {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    background: #FF8E00;
+    margin: 30px 0px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.portfolio-card .portfolio-image-container {
+    justify-content: center;
+    align-items: center;
+}
+
+
+.portfolio-image {
+    width: auto;
+    height: auto;
+    max-height: 200px;
+    max-width: 200px;
+    margin: 5px 0px;
+}
+
+.portfolio-card-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-top: 2px solid #002347;
+}
+
+.portfolio-card-title, .portfolio-card-text, .portfolio-card-link {
+    margin: 5px 0px;
+    color:#002347;
+}
+
+.portfolio-title {
+    margin: 50px 0px;
+    font-size: 1.6rem;
+    color: #FF8E00;
 }
 
 

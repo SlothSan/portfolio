@@ -42,11 +42,12 @@ body {
 }
 
 .nav-icon {
-    visibility: hidden;
+    opacity: 0%;
 }
 
 .nav-button-links:hover .nav-icon {
-    visibility: visible;
+    opacity: 100%;
+    transition: opacity 0.5s;
 }
 
 @media screen and (min-width: 700px) {

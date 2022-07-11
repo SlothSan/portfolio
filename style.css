@@ -184,10 +184,13 @@ body {
     border: 2px solid #002347;
 }
 
-.portfolio-card-text {
+.portfolio-container-card-text {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+}
+
+.portfolio-card-text {
     border-top: 2px solid #002347;
 }
 
@@ -202,6 +205,21 @@ body {
     color: #FF8E00;
 }
 
+.portfolio-title i {
+    font-size: 1.8rem;
+}
+
+.portfolio-intro-container, .portfolio-outro-container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.slash {
+    margin-bottom: 5px;
+}
 
 /* NEED TO ADD QUERIES FOR PORTFOLIIO SECTION!!!N!N!N */
 

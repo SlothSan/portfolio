@@ -93,13 +93,30 @@ body {
    border: 3px solid #002347;
 }
 
+.about-photo-container {
+    position: relative;
+}
+
+.about-photo-container .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.about-photo-container:hover .img-top {
+    display: inline;
+}
+
+
 @media screen and (min-width: 700px) {
     .nav-bar {
         justify-content: flex-end;
     }
 
     .nav-button-links {
-        font-size: 1.6rem;
+        font-size: 1.6rem;w
         padding: 0px;
     }
 

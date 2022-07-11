@@ -68,6 +68,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: relative;
 }
 
 .about-title, .about-info {
@@ -95,6 +96,8 @@ body {
 
 .about-photo-container {
     position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
 .about-photo-container .img-top {
@@ -109,6 +112,24 @@ body {
     display: inline;
 }
 
+.about-photo-tap {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:#002347;
+}
+
+.about-photo-text, .about-photo-text-desktop {
+    margin-top: -5px;
+    font-size: 1.2rem; 
+}
+
+.about-photo-text-desktop {
+    display: none;
+}
+
 
 @media screen and (min-width: 700px) {
     .nav-bar {
@@ -116,7 +137,7 @@ body {
     }
 
     .nav-button-links {
-        font-size: 1.6rem;w
+        font-size: 1.6rem;
         padding: 0px;
     }
 
@@ -126,5 +147,13 @@ body {
         min-width: 500px;
         min-height: 500px;
         border-radius: 50%;
+    }
+
+    .about-photo-text {
+        display: none;
+    }
+
+    .about-photo-text-desktop {
+        display: block;
     }
 }

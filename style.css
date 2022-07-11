@@ -145,7 +145,7 @@ body {
 
 .portfolio-section {
     width: 100vw;
-    height: 100vh; /*Placeholder till cards are in then remove */
+     /*Placeholder till cards are in then remove */
     background: #002347;
     
 }
@@ -168,7 +168,8 @@ body {
     border-radius: 5px;
 }
 
-.portfolio-card .portfolio-image-container {
+.portfolio-image-container {
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -177,9 +178,10 @@ body {
 .portfolio-image {
     width: auto;
     height: auto;
-    max-height: 200px;
-    max-width: 200px;
+    max-height: 250px;
+    max-width: 250px;
     margin: 5px 0px;
+    border: 2px solid #002347;
 }
 
 .portfolio-card-text {

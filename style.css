@@ -42,7 +42,13 @@ body {
     color: #002347;
 }
 
-.
+.nav-icon {
+    visibility: hidden;
+}
+
+.nav-button-links:hover .nav-icon {
+    visibility: visible;
+}
 
 @media screen and (min-width: 700px) {
     .nav-bar {

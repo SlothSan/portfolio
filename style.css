@@ -63,23 +63,33 @@ body {
 }
 
 .about-container {
+    margin-top: -100px;
     height: 300px;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
 }
 
 .about-title, .about-info {
     color:#002347;
+    margin: 0px;
 }
 
 .about-title {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
 }
 
 .about-info {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
+}
+
+.about-photo {
+   width: auto;
+   height: auto;
+   max-width: 300px;
+   max-height: 300px;
+   border-radius: 25%;
+   margin-top: -100px;
 }
 
 @media screen and (min-width: 700px) {
@@ -90,5 +100,13 @@ body {
     .nav-button-links {
         font-size: 1.6rem;
         padding: 0px;
+    }
+
+    .about-photo {
+        width: auto;
+        height: auto;
+        min-width: 500px;
+        min-height: 500px;
+        border-radius: 25%;
     }
 }

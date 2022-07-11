@@ -1,0 +1,63 @@
+/* Colors
+Midnight Blue #002347
+Orange #FF8E00
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 10px;
+    margin: 0 auto;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+.nav-bar {
+    width: 100vw;
+    background-color: #002347;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between; /* Media query this too use flex-end on desktop */
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+.links-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-button-links {
+    font-size: 1.2rem;
+    color: #FF8E00;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.nav-button-links:hover { /*Add more button stuff in here to animate (Scale ?) */
+    background-color: #FF8E00;
+    color: #002347;
+}
+
+.nav-icon {
+    opacity: 0%;
+}
+
+.nav-button-links:hover .nav-icon {
+    opacity: 100%;
+    transition: opacity 0.5s;
+}
+
+@media screen and (min-width: 700px) {
+    .nav-bar {
+        justify-content: flex-end;
+    }
+
+    .nav-button-links {
+        font-size: 1.6rem;
+        padding: 0px;
+    }
+}

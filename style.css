@@ -51,6 +51,96 @@ body {
     transition: opacity 0.5s;
 }
 
+
+.about-section {
+    height: 100vh;
+    width: 100vw;
+    background-color: #FF8E00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about-container {
+    margin-top: -100px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.about-title, .about-info {
+    color:#002347;
+    margin: 0px;
+}
+
+.about-title {
+    font-size: 1.6rem;
+}
+
+.about-info {
+    font-size: 1.2rem;
+}
+
+.about-photo {
+   width: auto;
+   height: auto;
+   max-width: 300px;
+   max-height: 300px;
+   border-radius: 50%;
+   margin-top: -100px;
+   border: 3px solid #002347;
+}
+
+.about-photo-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-photo-container .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.about-photo-container:hover .img-top {
+    display: inline;
+}
+
+.about-photo-tap {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:#002347;
+}
+
+.about-photo-text, .about-photo-text-desktop {
+    margin-top: -5px;
+    font-size: 1.2rem; 
+}
+
+.about-photo-text-desktop {
+    display: none;
+}
+
+.section-scroller, .scroller {
+    color:#002347;
+    text-decoration: none;
+}
+
+.section-scroller {
+    position: absolute;
+    bottom: 5px;
+}
+
+
 @media screen and (min-width: 700px) {
     .nav-bar {
         justify-content: flex-end;
@@ -60,4 +150,30 @@ body {
         font-size: 1.6rem;
         padding: 0px;
     }
+
+    .about-photo {
+        width: auto;
+        height: auto;
+        min-width: 500px;
+        min-height: 500px;
+        border-radius: 50%;
+    }
+
+    .about-photo-text {
+        display: none;
+    }
+
+    .about-photo-text-desktop {
+        display: block;
+        font-size: 1.6rem;
+    }
+
+    .about-title {
+        font-size: 2.4rem;
+    }
+
+    .about-info {
+        font-size: 1.6rem;
+    }
+
 }

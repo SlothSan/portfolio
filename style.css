@@ -85,11 +85,11 @@ section {
 }
 
 .about-title {
-    font-size: 1.6rem;
+    font-size: 2.4rem;
 }
 
 .about-info {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
 }
 
 .about-photo {
@@ -256,6 +256,33 @@ section {
 .scroller-contact {
     color: #FF8E00;
 }
+
+.contact-section {
+    background: #FF8E00;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-title {
+    font-size: 3rem;
+    margin-bottom: 5px;
+}
+
+.contact-text {
+    font-size: 1.6rem;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+.contact-title, .contact-text {
+    color: #002347;
+}
+
 
 
 /* NEED TO ADD QUERIES FOR PORTFOLIIO SECTION!!!N!N!N */

@@ -118,7 +118,7 @@ nav {
 }
 
 .about-photo-container:hover .img-top {
-    display: inline;
+    display: inline-block;
 }
 
 .about-photo-caption-container {

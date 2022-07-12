@@ -8,8 +8,11 @@ Orange #FF8E00
     scroll-behavior: smooth;
 }
 
+html {
+    font-size: 16px;
+}
+
 body {
-    font-size: 10px;
     margin: 0 auto;
     font-family: 'Ubuntu Mono', monospace;
 }
@@ -25,7 +28,7 @@ nav {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-between; /* Media query this too use flex-end on desktop */
+    justify-content: space-between; 
     position: fixed;
     top: 0px;
     left: 0px;
@@ -45,22 +48,19 @@ nav {
     padding: 5px 10px;
 }
 
-.nav-button-link:hover { /*Add more button stuff in here to animate (Scale ?) */
+.nav-button-link:hover { 
     background-color: #FF8E00;
     color: #002347;
 }
 
-.nav-icon {
+.nav-bracket {
     opacity: 0%;
 }
 
-.nav-button-link:hover .nav-icon {
+.nav-button-link:hover .nav-bracket {
     opacity: 100%;
-    transition: opacity 0.5s;
+    transition: opacity 0.2s;
 }
-
-
-
 
 .about-section {
     height: 100vh;
@@ -73,7 +73,6 @@ nav {
 }
 
 .about-container {
-    margin-top: -100px;
     height: 300px;
     display: flex;
     flex-direction: column;
@@ -140,7 +139,7 @@ nav {
     display: none;
 }
 
-.section-scroller, .scroller {
+.section-scroller, .scroller, .scroller-up {
     color:#002347;
     text-decoration: none;
 }
@@ -154,7 +153,11 @@ nav {
     width: 100%;
      /*Placeholder till cards are in then remove */
     background: #002347;
-    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .card-container {
@@ -191,7 +194,7 @@ nav {
     border: 2px solid #002347;
 }
 
-.portfolio-container-card-text {
+.card-text-container {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -299,7 +302,7 @@ nav {
     color:#002347;
 }
 
-.footer-container {
+footer {
     position: absolute;
     bottom: 0px;
     width: 100%;

@@ -17,13 +17,25 @@
     <main>
         <nav>
             <div class="link-container"> 
-                <a href="#about" class="nav-button-link"><i class="fa-solid fa-chevron-left nav-icon"></i>About<i class="fa-solid fa-chevron-right nav-icon"></i></a>
+                <a href="#about" class="nav-button-link">
+                    <i class="fa-solid fa-chevron-left nav-bracket"></i>
+                    About
+                    <i class="fa-solid fa-chevron-right nav-bracket"></i>
+                </a>
             </div>
             <div class="link-container">
-                <a href="#portfolio" class="nav-button-link"><i class="fa-solid fa-chevron-left nav-icon"></i>Portfolio<i class="fa-solid fa-chevron-right nav-icon"></i></a>
+                <a href="#portfolio" class="nav-button-link">
+                    <i class="fa-solid fa-chevron-left nav-bracket"></i>
+                    Portfolio
+                    <i class="fa-solid fa-chevron-right nav-bracket"></i>
+                </a>
             </div>
             <div class="link-container">    
-                <a href="#contact" class="nav-button-link"><i class="fa-solid fa-chevron-left nav-icon"></i>Contact<i class="fa-solid fa-chevron-right nav-icon"></i></a>
+                <a href="#contact" class="nav-button-link">
+                    <i class="fa-solid fa-chevron-left nav-bracket"></i>
+                    Contact
+                    <i class="fa-solid fa-chevron-right nav-bracket"></i>
+                </a>
             </div>
         </nav>
         <section id="about" class="about-section">
@@ -41,76 +53,107 @@
                     <p class="about-photo-text-desktop">Hover over me!</p>
                 </div>
                 <div class="section-scroller">
-                    <a href="#portfolio" class="scroller"><i class="fa-solid fa-chevron-down fa-5x"></i></a>
+                    <a href="#portfolio" class="scroller">
+                        <i class="fa-solid fa-chevron-down fa-5x"></i>
+                    </a>
                 </div>
         </section>
         <section id="portfolio" class="portfolio-section"> 
-            <div class="card-container">
-                <div class="portfolio-intro-container">
-                    <h2 class="portfolio-title"><i class="fa-solid fa-chevron-left"></i>Mike's Portfolio<i class="fa-solid fa-chevron-right"></i></h2>
+            <div class="portfolio-intro-container">
+                <h2 class="portfolio-title"><i class="fa-solid fa-chevron-left"></i>Mike's Portfolio<i class="fa-solid fa-chevron-right"></i></h2>
+            </div>
+            <div class="portfolio-card">
+                <div class="portfolio-image-container">
+                    <img src="./imgs/projectPlaceholder.jpg" alt="placeholder" class="portfolio-image">
                 </div>
-                <div class="portfolio-card">
-                    <div class="portfolio-image-container">
-                        <img src="./imgs/projectPlaceholder.jpg" alt="placeholder" class="portfolio-image">
+                <div class-="card-text-container">
+                    <h2 class="portfolio-card-title">JavaScript Calculator</h2>
+                    <p class="portfolio-card-text">Working calculator created using JavaScript, HTML & CSS - Project for The Odin Project foundation course.</p>
+                    <div class="portfolio-container-links">
+                        <a href="https://github.com/SlothSan/odin-calculator" target="_blank" class="portfolio-card-link">
+                            View on 
+                            <i class="fa-brands fa-github fa-spin-hover"></i>
+                        </a>
+                        <a href="https://slothsan.github.io/odin-calculator/" target="_blank" class="portfolio-card-link">
+                            View Live
+                        </a>
                     </div>
-                    <div class-="portfolio-container-card-text">
-                        <h2 class="portfolio-card-title">JavaScript Calculator</h2>
-                        <p class="portfolio-card-text">Working calculator created using JavaScript, HTML & CSS - Project for The Odin Project foundation course.</p>
-                        <div class="portfolio-container-links">
-                            <a href="https://github.com/SlothSan/odin-calculator" target="_blank" class="portfolio-card-link">View on <i class="fa-brands fa-github fa-spin-hover"></i></agit >
-                            <a href="https://slothsan.github.io/odin-calculator/" target="_blank" class="portfolio-card-link">View Live</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-card">
-                    <div class="portfolio-image-container">
-                        <img src="./imgs/projectPlaceholder.jpg" alt="placeholder" class="portfolio-image">
-                    </div>
-                    <div class-="portfolio-container-card-text">
-                        <h2 class="portfolio-card-title">JavaScript Calculator</h2>
-                        <p class="portfolio-card-text">Working calculator created using JavaScript, HTML & CSS - Project for The Odin Project foundation course.</p>
-                        <div class="portfolio-container-links">
-                            <a href="https://github.com/SlothSan/odin-calculator" target="_blank" class="portfolio-card-link">View on <i class="fa-brands fa-github fa-spin-hover"></i></a>
-                            <a href="https://slothsan.github.io/odin-calculator/" target="_blank" class="portfolio-card-link">View Live</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-card">
-                    <div class="portfolio-image-container">
-                        <img src="./imgs/projectPlaceholder.jpg" alt="placeholder" class="portfolio-image">
-                    </div>
-                    <div class-="portfolio-container-card-text">
-                        <h2 class="portfolio-card-title">JavaScript Calculator</h2>
-                        <p class="portfolio-card-text">Working calculator created using JavaScript, HTML & CSS - Project for The Odin Project foundation course.</p>
-                        <div class="portfolio-container-links">
-                            <a href="https://github.com/SlothSan/odin-calculator" target="_blank" class="portfolio-card-link">View on <i class="fa-brands fa-github fa-spin-hover"></i></a>
-                            <a href="https://slothsan.github.io/odin-calculator/" target="_blank" class="portfolio-card-link">View Live</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-outro-container">
-                    <h2 class="portfolio-title"><i class="fa-solid fa-chevron-left"></i>/ Mike's Portfolio<i class="fa-solid fa-chevron-right"></i></h2>
                 </div>
             </div>
+            <div class="portfolio-card">
+                <div class="portfolio-image-container">
+                    <img src="./imgs/projectPlaceholder.jpg" alt="placeholder" class="portfolio-image">
+                </div>
+                <div class-="card-text-container">
+                    <h2 class="portfolio-card-title">JavaScript Calculator</h2>
+                    <p class="portfolio-card-text">Working calculator created using JavaScript, HTML & CSS - Project for The Odin Project foundation course.</p>
+                    <div class="portfolio-container-links">
+                        <a href="https://github.com/SlothSan/odin-calculator" target="_blank" class="portfolio-card-link">
+                            View on 
+                            <i class="fa-brands fa-github fa-spin-hover"></i>
+                        </a>
+                        <a href="https://slothsan.github.io/odin-calculator/" target="_blank" class="portfolio-card-link">
+                            View Live
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-card">
+                <div class="portfolio-image-container">
+                    <img src="./imgs/projectPlaceholder.jpg" alt="placeholder" class="portfolio-image">
+                </div>
+                <div class-="card-text-container">
+                    <h2 class="portfolio-card-title">JavaScript Calculator</h2>
+                    <p class="portfolio-card-text">Working calculator created using JavaScript, HTML & CSS - Project for The Odin Project foundation course.</p>
+                    <div class="portfolio-container-links">
+                        <a href="https://github.com/SlothSan/odin-calculator" target="_blank" class="portfolio-card-link">
+                            View on 
+                            <i class="fa-brands fa-github fa-spin-hover"></i>
+                        </a>
+                        <a href="https://slothsan.github.io/odin-calculator/" target="_blank" class="portfolio-card-link">
+                            View Live
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-outro-container">
+                <h2 class="portfolio-title"><i class="fa-solid fa-chevron-left"></i>/ Mike's Portfolio<i class="fa-solid fa-chevron-right"></i></h2>
+            </div>
             <div class="section-scroller-contact">
-                <a href="#contact" class="scroller-contact orange"><i class="fa-solid fa-chevron-down fa-5x"></i></a>
+                <a href="#contact" class="scroller-contact orange">
+                    <i class="fa-solid fa-chevron-down fa-5x"></i>
+                </a>
             </div>
         </section>
         <section id="contact" class="contact-section">
-            <div class="contact-container">
+            <div class="contact-text-container">
                 <h2 class="contact-title">Let's talk...</h2>
                 <p class="contact-text">How do you take your coffee?</p>
             </div>
             <div class="contact-links-container">
-                <a class="contact-link" href="https://github.com/SlothSan" target="_blank">GitHub <i class="fab fa-github"></i></a>
-                <a class="contact-link" href="https://www.linkedin.com/in/mike-oram-93b517b9/" target="_blank">LinkedIn <i class="fab fa-linkedin"></i></a>
-                <a class="contact-link" href="mailto:hello@mike-oram.co.uk">Email me <i class="fas fa-at"></i></a>
-                <a class="contact-link" href="tel:+447951068115">Call me <i class="fas fa-mobile-alt"></i></a>
+                <a class="contact-link" href="https://github.com/SlothSan" target="_blank">
+                    GitHub 
+                    <i class="fab fa-github"></i>
+                </a>
+                <a class="contact-link" href="https://www.linkedin.com/in/mike-oram-93b517b9/" target="_blank">
+                    LinkedIn 
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a class="contact-link" href="mailto:hello@mike-oram.co.uk">
+                    Email me 
+                    <i class="fas fa-at"></i>
+                </a>
+                <a class="contact-link" href="tel:+447951068115">
+                    Call me 
+                    <i class="fas fa-mobile-alt"></i>
+                </a>
             </div>
             <div class="section-scroller-about">
-                <a href="#about" class="scroller-blue"><i class="fa-solid fa-chevron-up fa-5x"></i></a>
+                <a href="#about" class="scroller-up">
+                    <i class="fa-solid fa-chevron-up fa-5x"></i>
+                </a>
             </div>
-            <footer class="footer-container">
+            <footer>
                 Created by Mike Oram 2022
             </footer>
         </section>

@@ -225,6 +225,15 @@ body {
     align-items: center;
 }
 
+.portfolio-card-link {
+    text-decoration: none;
+}
+
+.fa-spin-hover:hover {
+    animation: fa-spin 0.7s ease-in-out;
+    transform: scale(1.1);
+}
+
 
 
 /* NEED TO ADD QUERIES FOR PORTFOLIIO SECTION!!!N!N!N */
@@ -265,4 +274,21 @@ body {
         font-size: 1.6rem;
     }
 
+    .portfolio-card {
+        width: 700px;
+    }
+    .portfolio-image {
+        height: auto;
+        width: auto;
+        min-width: 500px;
+        min-height: 500px;
+    }
+
+    .portfolio-card-title {
+        font-size: 2.4rem;
+    }
+
+    .portfolio-card-text, .portfolio-card-link {
+        font-size: 1.6rem;
+    }
 }

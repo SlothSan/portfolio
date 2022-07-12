@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,21 +9,21 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <link rel="stylesheet" type="text/css" href="./normalize.css">
     <link rel="stylesheet" type="text/css" href="./style.css">
     <title>Mike Oram's Portfolio</title> 
 </head>
 <body>
     <main>
-        <nav class="nav-bar"> <!--NavBar goes here-->
-            <div class="links-container"> <!--Navbar flex-end for desktop- space evenly for Mobile.-->
-                <a href="#about" class="nav-button-links"><i class="fa-solid fa-chevron-left nav-icon"></i>About<i class="fa-solid fa-chevron-right nav-icon"></i></a>
+        <nav>
+            <div class="link-container"> 
+                <a href="#about" class="nav-button-link"><i class="fa-solid fa-chevron-left nav-icon"></i>About<i class="fa-solid fa-chevron-right nav-icon"></i></a>
             </div>
-            <div class="links-container">
-                <a href="#portfolio" class="nav-button-links"><i class="fa-solid fa-chevron-left nav-icon"></i>Portfolio<i class="fa-solid fa-chevron-right nav-icon"></i></a>
+            <div class="link-container">
+                <a href="#portfolio" class="nav-button-link"><i class="fa-solid fa-chevron-left nav-icon"></i>Portfolio<i class="fa-solid fa-chevron-right nav-icon"></i></a>
             </div>
-            <div class="links-container">    
-                <a href="#contact" class="nav-button-links"><i class="fa-solid fa-chevron-left nav-icon"></i>Contact<i class="fa-solid fa-chevron-right nav-icon"></i></a>
+            <div class="link-container">    
+                <a href="#contact" class="nav-button-link"><i class="fa-solid fa-chevron-left nav-icon"></i>Contact<i class="fa-solid fa-chevron-right nav-icon"></i></a>
             </div>
         </nav>
         <section id="about" class="about-section">
@@ -43,9 +44,9 @@
                     <a href="#portfolio" class="scroller"><i class="fa-solid fa-chevron-down fa-5x"></i></a>
                 </div>
         </section>
-        <section id="portfolio" class="portfolio-section"> <!--Portfolio goes here-->
+        <section id="portfolio" class="portfolio-section"> 
             <div class="card-container">
-                <div class="portfolio-intro-container"> <!--Add Chevrons here to make it look like a HTML Tag-->
+                <div class="portfolio-intro-container">
                     <h2 class="portfolio-title"><i class="fa-solid fa-chevron-left"></i>Mike's Portfolio<i class="fa-solid fa-chevron-right"></i></h2>
                 </div>
                 <div class="portfolio-card">
@@ -116,3 +117,4 @@
     </main>
 
 </body>
+</html>

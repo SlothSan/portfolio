@@ -19,7 +19,7 @@ section {
     position: relative
 }
 
-.nav-bar {
+nav {
     width: 100%;
     background-color: #002347;
     display: flex;
@@ -33,19 +33,19 @@ section {
     border-bottom: 3px solid #FF8E00;
 }
 
-.links-container {
+.link-container {
     display: flex;
     flex-direction: row;
 }
 
-.nav-button-links {
+.nav-button-link {
     font-size: 1.2rem;
     color: #FF8E00;
     text-decoration: none;
     padding: 5px 10px;
 }
 
-.nav-button-links:hover { /*Add more button stuff in here to animate (Scale ?) */
+.nav-button-link:hover { /*Add more button stuff in here to animate (Scale ?) */
     background-color: #FF8E00;
     color: #002347;
 }
@@ -54,7 +54,7 @@ section {
     opacity: 0%;
 }
 
-.nav-button-links:hover .nav-icon {
+.nav-button-link:hover .nav-icon {
     opacity: 100%;
     transition: opacity 0.5s;
 }
@@ -329,11 +329,11 @@ section {
 
 
 @media screen and (min-width: 700px) {
-    .nav-bar {
+    nav {
         justify-content: flex-end;
     }
 
-    .nav-button-links {
+    .nav-button-link {
         font-size: 1.6rem;
         padding: 0px;
         /* margin-right: 20px */

@@ -14,6 +14,11 @@ body {
     font-family: 'Ubuntu Mono', monospace;
 }
 
+
+section {
+    position: relative
+}
+
 .nav-bar {
     width: 100vw;
     background-color: #002347;
@@ -192,6 +197,7 @@ body {
 
 .portfolio-card-text {
     border-top: 2px solid #002347;
+    border-bottom: 2px solid #002347;
 }
 
 .portfolio-card-title, .portfolio-card-text, .portfolio-card-link {
@@ -234,6 +240,22 @@ body {
     transform: scale(1.1);
 }
 
+.portfolio-container-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.section-scroller-contact {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.scroller-contact {
+    color: #FF8E00;
+}
 
 
 /* NEED TO ADD QUERIES FOR PORTFOLIIO SECTION!!!N!N!N */

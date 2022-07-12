@@ -302,7 +302,7 @@ section {
 .footer-container {
     position: absolute;
     bottom: 0px;
-    width: 100%;
+    width: 100vw;
     background: #002347;
     color: #FF8E00;
     display: flex;
@@ -310,11 +310,13 @@ section {
     align-items: center;
     font-size: 1.2rem;
     font-style: italic;
+    padding: 5px 0px 15px 0px
 }
 
 .section-scroller-about {
     position: absolute;
-    bottom: 15px;
+    bottom: 25px;
+    margin-bottom: 5px;
 }
 
 .scroller-blue {
@@ -334,6 +336,7 @@ section {
     .nav-button-links {
         font-size: 1.6rem;
         padding: 0px;
+        /* margin-right: 20px */
     }
 
     .about-photo {

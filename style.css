@@ -60,6 +60,8 @@ section {
 }
 
 
+
+
 .about-section {
     height: 100vh;
     width: 100vw;
@@ -85,11 +87,11 @@ section {
 }
 
 .about-title {
-    font-size: 2.4rem;
+    font-size: 2rem;
 }
 
 .about-info {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
 }
 
 .about-photo {
@@ -266,6 +268,7 @@ section {
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .contact-title {
@@ -280,6 +283,41 @@ section {
 }
 
 .contact-title, .contact-text {
+    color: #002347;
+}
+
+.contact-links-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-top: 25px
+}
+
+.contact-link {
+    font-size: 1.6rem;
+    text-decoration: none;
+    color:#002347;
+}
+
+.footer-container {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background: #002347;
+    color: #FF8E00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+.section-scroller-about {
+    position: absolute;
+    bottom: 15px;
+}
+
+.scroller-blue {
     color: #002347;
 }
 
@@ -338,6 +376,22 @@ section {
     }
 
     .portfolio-card-text, .portfolio-card-link {
+        font-size: 1.6rem;
+    }
+
+    .contact-links-container {
+        flex-direction: row;
+    }
+
+    .contact-link {
+        margin: 0px 10px;
+    }
+
+    .contact-title {
+        font-size: 3rem;
+    }
+
+    .contact-text {
         font-size: 1.6rem;
     }
 }

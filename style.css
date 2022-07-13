@@ -151,7 +151,6 @@ nav {
 
 .portfolio-section {
     width: 100%;
-     /*Placeholder till cards are in then remove */
     background: #002347;
     display: flex;
     flex-direction: column;
@@ -222,15 +221,20 @@ nav {
     margin: 50px 0px;
     font-size: 1.6rem;
     color: #FF8E00;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .portfolio-title i {
-    font-size: 1.8rem;
+    font-size: 1.6rem;  
 }
 
 .portfolio-intro-container, .portfolio-outro-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -328,7 +332,6 @@ footer {
 
 
 
-/* NEED TO ADD QUERIES FOR PORTFOLIIO SECTION!!!N!N!N */
 
 
 @media screen and (min-width: 700px) {
@@ -339,7 +342,6 @@ footer {
     .nav-button-link {
         font-size: 1.6rem;
         padding: 0px;
-        /* margin-right: 20px */
     }
 
     .about-photo {

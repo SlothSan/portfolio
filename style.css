@@ -400,6 +400,10 @@ footer {
     }
 
     .contact-text {
-        font-size: 1.6rem;
+        font-size: 1.8rem;
+    }
+
+    .fa-bounce-hover:hover {
+        animation: fa-bounce 0.5s ease-in-out;
     }
 }

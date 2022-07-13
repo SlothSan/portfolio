@@ -133,16 +133,6 @@ nav {
     transition: opacity 0.4s;
 }
 
-
-
-/* .about-photo::after {
-}
-
-.about-photo:hover::after {
-    opacity: 1;
-    transition: opacity 0.4s; 
-} */
-
 .about-photo-caption-container {
     margin-top: 10px;
     display: flex;

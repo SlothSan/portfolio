@@ -379,7 +379,7 @@ footer {
         min-height: 500px;
     }
 
-    .portfolio-card-title {
+    .portfolio-card-title, .portfolio-title {
         font-size: 2.4rem;
     }
 

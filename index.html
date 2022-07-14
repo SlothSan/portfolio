@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="'Mike Oram', HTML, CSS, JavaScript">
+    <meta name="description" content="Mike Oram's Full Stack Track Portfolio">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./normalize.css">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <script src="https://kit.fontawesome.com/3824660a61.js" crossorigin="anonymous"></script>
+    <title>Mike Oram's Portfolio</title> 
+</head>
+<body>
+    <main>
+        <nav>
+            <div class="link-container"> 
+                <a href="#about" class="nav-button-link">
+                    <i class="fa-solid fa-chevron-left nav-bracket"></i>
+                    About
+                    <i class="fa-solid fa-chevron-right nav-bracket"></i>
+                </a>
+            </div>
+            <div class="link-container">
+                <a href="#portfolio" class="nav-button-link">
+                    <i class="fa-solid fa-chevron-left nav-bracket"></i>
+                    Portfolio
+                    <i class="fa-solid fa-chevron-right nav-bracket"></i>
+                </a>
+            </div>
+            <div class="link-container">    
+                <a href="#contact" class="nav-button-link">
+                    <i class="fa-solid fa-chevron-left nav-bracket"></i>
+                    Contact
+                    <i class="fa-solid fa-chevron-right nav-bracket"></i>
+                </a>
+            </div>
+        </nav>
+        <section id="about" class="about-section">
+                <div class="about-container">
+                    <h1 class="about-title">Hello there, I am Mike</h1>
+                    <p class="about-info">An Aspiring Full-Stack Developer.</p>
+                </div>
+                <div class="about-photo-container">
+                    <img class="about-photo" src="./imgs/seriousmike.jpg" alt="mike looking serious">
+                    <img class="about-photo img-top" src="./imgs/happymike.jpg" alt="mike looking happy">
+                </div>
+                <div class="about-photo-caption-container">
+                    <i class="fa-solid fa-chevron-up fa-2x fa-bounce"></i>
+                    <p class="about-photo-text">Tap me!</p>
+                    <p class="about-photo-text-desktop">Hover over me!</p>
+                </div>
+                <div class="section-scroller scroller-contact">
+                    <a href="#portfolio" class="scroller">
+                        <i class="fa-solid fa-chevron-down fa-5x"></i>
+                    </a>
+                </div>
+        </section>
+        <section id="portfolio" class="portfolio-section"> 
+            <div class="portfolio-intro-container">
+                <h2 class="portfolio-title"><i class="fa-solid fa-chevron-left"></i>Mike's Portfolio<i class="fa-solid fa-chevron-right"></i></h2>
+            </div>
+            <div class="portfolio-card">
+                <div class="portfolio-image-container">
+                    <img src="./imgs/etch-a-sketch.png" alt="image of a Etch-A-Sketch created with JavaScript CSS and HTML" class="portfolio-image">
+                </div>
+                <div class="card-text-container">
+                    <h2 class="portfolio-card-title">JavaScript Etch-A-Sketch</h2>
+                    <p class="portfolio-card-text">Etch-A-Sketch created using JavaScript, HTML & CSS - Project for The Odin Project's foundation course.</p>
+                    <div class="portfolio-container-links">
+                        <a href="https://github.com/SlothSan/odin-etch-a-sketch" target="_blank" class="portfolio-card-link">
+                            View on 
+                            <i class="fa-brands fa-github fa-spin-hover"></i>
+                        </a>
+                        <a href="https://slothsan.github.io/odin-etch-a-sketch/" target="_blank" class="portfolio-card-link">
+                            View Live
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-card">
+                <div class="portfolio-image-container">
+                    <img src="./imgs/calculator.png" alt="image of calculator created with JavaScript CSS and HTML" class="portfolio-image">
+                </div>
+                <div class="card-text-container">
+                    <h2 class="portfolio-card-title">JavaScript Calculator</h2>
+                    <p class="portfolio-card-text">Calculator created using JavaScript, HTML & CSS - Project for The Odin Project's foundation course.</p>
+                    <div class="portfolio-container-links">
+                        <a href="https://github.com/SlothSan/odin-calculator" target="_blank" class="portfolio-card-link">
+                            View on 
+                            <i class="fa-brands fa-github fa-spin-hover"></i>
+                        </a>
+                        <a href="https://slothsan.github.io/odin-calculator/" target="_blank" class="portfolio-card-link">
+                            View Live
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-card">
+                <div class="portfolio-image-container">
+                    <img src="./imgs/portfolio.png" alt="image of the portfolio site you are currently on" class="portfolio-image">
+                </div>
+                <div class="card-text-container">
+                    <h2 class="portfolio-card-title">HTML & CSS Portfolio Site</h2>
+                    <p class="portfolio-card-text">Portfolio site using HTML & CSS - Project for iO Academy's Full Stack Track course.</p>
+                    <div class="portfolio-container-links">
+                        <a href="https://github.com/SlothSan/portfolio" target="_blank" class="portfolio-card-link">
+                            View on 
+                            <i class="fa-brands fa-github fa-spin-hover"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-outro-container">
+                <h2 class="portfolio-title"><i class="fa-solid fa-chevron-left"></i>/Mike's Portfolio<i class="fa-solid fa-chevron-right"></i></h2>
+            </div>
+            <div class="section-scroller-contact">
+                <a href="#contact" class="scroller-contact orange">
+                    <i class="fa-solid fa-chevron-down fa-5x"></i>
+                </a>
+            </div>
+        </section>
+        <section id="contact" class="contact-section">
+            <div class="contact-text-container">
+                <h2 class="contact-title">Let's talk...</h2>
+                <p class="contact-text">How do you take your coffee?</p>
+            </div>
+            <div class="contact-links-container">
+                <a class="contact-link" href="https://github.com/SlothSan" target="_blank">
+                    GitHub 
+                    <i class="fab fa-github fa-bounce-hover"></i>
+                </a>
+                <a class="contact-link" href="https://www.linkedin.com/in/mike-oram-93b517b9/" target="_blank">
+                    LinkedIn 
+                    <i class="fab fa-linkedin fa-bounce-hover"></i>
+                </a>
+                <a class="contact-link" href="mailto:hello@mike-oram.co.uk">
+                    Email me 
+                    <i class="fas fa-at fa-bounce-hover"></i>
+                </a>
+                <a class="contact-link" href="tel:+447951068115">
+                    Call me 
+                    <i class="fas fa-mobile-alt fa-bounce-hover"></i>
+                </a>
+            </div>
+            <div class="section-scroller-about">
+                <a href="#about" class="scroller-up">
+                    <i class="fa-solid fa-chevron-up fa-5x fa-bounce-hover"></i>
+                </a>
+            </div>
+            <footer>
+                Created by Mike Oram 2022
+            </footer>
+        </section>
+    </main>
+
+</body>
+</html>

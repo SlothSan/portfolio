@@ -45,7 +45,7 @@ nav {
     font-size: 1rem;
     color: #FF8E00;
     text-decoration: none;
-    padding: 5px 10px;
+    padding: 5px 5x;
 }
 
 .nav-button-link:hover { 
@@ -78,6 +78,7 @@ nav {
     flex-direction: column;
     justify-content: center;
     position: relative;
+    margin-bottom: 20px;
 }
 
 .about-title, .about-info {
@@ -86,11 +87,11 @@ nav {
 }
 
 .about-title {
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
 .about-info {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 }
 
 .about-photo {
@@ -180,7 +181,7 @@ nav {
 }
 
 .portfolio-card {
-    width: 350px;
+    width: 95%;
     display: flex;
     flex-direction: column;
     background: #FF8E00;
@@ -291,7 +292,7 @@ nav {
 }
 
 .contact-title {
-    font-size: 3rem;
+    font-size: 2.2rem;
     margin-bottom: 5px;
 }
 
@@ -343,8 +344,18 @@ footer {
 }
 
 
-
-
+@media screen and (max-width: 374px) {
+    .contact-title {
+        font-size: 2rem;
+        margin-bottom: 5px;
+    }
+    
+    .contact-text {
+        font-size: 1.4rem;
+        font-style: italic;
+        margin-top: 5px;
+    }
+}
 
 @media screen and (min-width: 700px) {
     nav {

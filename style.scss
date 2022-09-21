@@ -87,11 +87,11 @@ nav {
       margin: 0px;
     }
     .about-title {
-      font-size: 2rem;
+      font-size: 2.2rem;
     }
 
     .about-info {
-      font-size: 1.4rem;
+      font-size: 1.6rem;
     }
   }
 }
@@ -142,7 +142,7 @@ nav {
 .about-photo-text,
 .about-photo-text-desktop {
   margin-top: -5px;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 .about-photo-text-desktop {
@@ -158,6 +158,7 @@ nav {
 
 .section-scroller {
   position: absolute;
+  font-size: 0.8rem;
   bottom: 5px;
 }
 

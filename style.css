@@ -78,10 +78,10 @@ nav .nav-button-link .nav-bracket {
   margin: 0px;
 }
 .about-section .about-container .about-title {
-  font-size: 2rem;
+  font-size: 2.2rem;
 }
 .about-section .about-container .about-info {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
 }
 
 .about-photo-container {
@@ -130,7 +130,7 @@ nav .nav-button-link .nav-bracket {
 .about-photo-text,
 .about-photo-text-desktop {
   margin-top: -5px;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 .about-photo-text-desktop {
@@ -146,6 +146,7 @@ nav .nav-button-link .nav-bracket {
 
 .section-scroller {
   position: absolute;
+  font-size: 0.8rem;
   bottom: 5px;
 }
 

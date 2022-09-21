@@ -39,10 +39,10 @@ nav .link-container {
   flex-direction: row;
 }
 nav .nav-button-link {
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   color: #ff8e00;
   text-decoration: none;
-  padding: 5px 0;
+  padding: 15px 0;
 }
 nav .nav-button-link:hover {
   background-color: #ff8e00;
@@ -53,6 +53,7 @@ nav .nav-button-link:hover .nav-bracket {
   transition: opacity 0.2s;
 }
 nav .nav-button-link .nav-bracket {
+  font-size: 1.3rem;
   opacity: 0%;
 }
 
@@ -78,10 +79,10 @@ nav .nav-button-link .nav-bracket {
   margin: 0px;
 }
 .about-section .about-container .about-title {
-  font-size: 2.2rem;
+  font-size: 2rem;
 }
 .about-section .about-container .about-info {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
 }
 .about-section .about-photo-container {
   position: relative;
@@ -308,7 +309,7 @@ footer {
   color: #002347;
 }
 
-@media screen and (max-width: 374px) {
+@media screen and (max-width: 450px) {
   .contact-title {
     font-size: 2rem;
     margin-bottom: 5px;
@@ -317,6 +318,13 @@ footer {
     font-size: 1.4rem;
     font-style: italic;
     margin-top: 5px;
+  }
+  .nav-button-link {
+    font-size: 1.3rem;
+    padding: 10px 0;
+  }
+  .nav-bracket {
+    font-size: 1rem;
   }
 }
 @media screen and (min-width: 700px) {
@@ -336,9 +344,8 @@ footer {
   .about-photo {
     width: auto;
     height: auto;
-    min-width: 450px;
-    min-height: 450px;
-    border-radius: 50%;
+    min-width: 500px;
+    min-height: 500px;
   }
   .about-photo-text {
     display: none;

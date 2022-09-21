@@ -106,16 +106,13 @@ nav {
     max-width: 300px;
     max-height: 300px;
     border-radius: 50%;
-    margin-top: -100px;
-    border: 3px solid $primary-blue;
+    margin-top: -50px;
+    border: 3 px solid $primary-blue;
     opacity: 1;
   }
   .img-top {
     opacity: 0;
     position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 99;
   }
 }
 
@@ -135,10 +132,9 @@ nav {
 }
 
 .about-photo-caption-container {
-  margin-top: 10px;
+  margin-top: 15px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   color: $primary-blue;
 }

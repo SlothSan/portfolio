@@ -343,8 +343,12 @@ footer {
     padding: 0px;
   }
 
-  .about-section, .portfolio-section, .contact-section {
+  .about-section, .contact-section {
     height: 100vh;
+  }
+
+  .portfolio-section {
+    height: auto;
   }
 
   .about-container {
@@ -399,9 +403,6 @@ footer {
     padding-bottom: 100px;
   }
 
-  .contact-section {
-    height: 100vh;
-  }
 
   .contact-links-container {
     flex-direction: row;

@@ -42,7 +42,7 @@ nav .nav-button-link {
   font-size: 1.6rem;
   color: #ff8e00;
   text-decoration: none;
-  padding: 5px 5x;
+  padding: 5px 0;
 }
 nav .nav-button-link:hover {
   background-color: #ff8e00;
@@ -71,7 +71,6 @@ nav .nav-button-link .nav-bracket {
   flex-direction: column;
   justify-content: center;
   position: relative;
-  margin-bottom: 20px;
 }
 .about-section .about-container .about-title,
 .about-section .about-container .about-info {
@@ -79,10 +78,10 @@ nav .nav-button-link .nav-bracket {
   margin: 0px;
 }
 .about-section .about-container .about-title {
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 .about-section .about-container .about-info {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 .about-photo-container {

@@ -142,9 +142,7 @@ nav .nav-button-link .nav-bracket {
 }
 
 .section-scroller {
-  position: absolute;
   font-size: 0.8rem;
-  bottom: 5px;
 }
 
 .portfolio-section {
@@ -156,48 +154,35 @@ nav .nav-button-link .nav-bracket {
   justify-content: center;
   align-items: center;
 }
-.portfolio-section .portfolio-intro-container,
-.portfolio-section .portfolio-outro-container {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-}
 .portfolio-section .portfolio-intro-container .portfolio-title,
 .portfolio-section .portfolio-outro-container .portfolio-title {
-  margin: 50px 0px;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
+  padding-top: 50px;
   color: #ff8e00;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
 }
 .portfolio-section .portfolio-intro-container .portfolio-title i,
 .portfolio-section .portfolio-outro-container .portfolio-title i {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
 }
 .portfolio-section .portfolio-card {
-  width: 65%;
+  width: 90%;
   display: flex;
   flex-direction: column;
   background: #ff8e00;
   margin: 30px 0px;
   padding: 5px 10px;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 .portfolio-section .portfolio-card .portfolio-image-container {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 10px 10;
 }
-.portfolio-section .portfolio-card .portfolio-image-container .portfolio-image {
+.portfolio-section .portfolio-card .portfolio-image {
   width: auto;
   height: auto;
-  max-height: 250px;
-  max-width: 250px;
+  max-width: 300px;
   margin: 5px 0px;
   border: 2px solid #002347;
 }
@@ -222,11 +207,11 @@ nav .nav-button-link .nav-bracket {
   color: #002347;
 }
 .portfolio-section .portfolio-card .card-text-container .portfolio-card-title {
-  font-size: 1.4rem;
+  font-size: 1.8rem;
 }
 .portfolio-section .portfolio-card .card-text-container .portfolio-card-text,
 .portfolio-section .portfolio-card .card-text-container .portfolio-card-link {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 .portfolio-section .portfolio-card .card-text-container .portfolio-card-link {
   text-decoration: none;
@@ -335,7 +320,7 @@ footer {
     font-size: 1.6rem;
     padding: 0px;
   }
-  .about-section {
+  .about-section, .portfolio-section, .contact-section {
     height: 100vh;
   }
   .about-container {
@@ -361,7 +346,7 @@ footer {
     font-size: 1.6rem;
   }
   .portfolio-card {
-    width: 700px;
+    max-width: 700px;
   }
   .portfolio-image {
     height: auto;
@@ -377,6 +362,9 @@ footer {
 .portfolio-card-link {
     font-size: 1.6rem;
   }
+  .portfolio-outro-container {
+    padding-bottom: 100px;
+  }
   .contact-section {
     height: 100vh;
   }
@@ -391,6 +379,10 @@ footer {
   }
   .contact-text {
     font-size: 1.8rem;
+  }
+  .scroller-contact, .section-scroller-contact {
+    position: absolute;
+    bottom: 10px;
   }
   .fa-bounce-hover:hover {
     animation: fa-bounce 0.5s ease-in-out;

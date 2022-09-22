@@ -43,6 +43,7 @@ nav .nav-button-link {
   color: #ff8e00;
   text-decoration: none;
   padding: 15px 0;
+  font-weight: 800;
 }
 nav .nav-button-link:hover {
   background-color: #ff8e00;
@@ -72,6 +73,7 @@ nav .nav-button-link .nav-bracket {
   flex-direction: column;
   justify-content: center;
   position: relative;
+  text-align: center;
 }
 .about-section .about-container .about-title,
 .about-section .about-container .about-info {
@@ -82,7 +84,7 @@ nav .nav-button-link .nav-bracket {
   font-size: 2rem;
 }
 .about-section .about-container .about-info {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
 }
 .about-section .about-photo-container {
   position: relative;
@@ -207,11 +209,11 @@ nav .nav-button-link .nav-bracket {
   color: #002347;
 }
 .portfolio-section .portfolio-card .card-text-container .portfolio-card-title {
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 .portfolio-section .portfolio-card .card-text-container .portfolio-card-text,
 .portfolio-section .portfolio-card .card-text-container .portfolio-card-link {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
 }
 .portfolio-section .portfolio-card .card-text-container .portfolio-card-link {
   text-decoration: none;
@@ -279,7 +281,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   font-style: italic;
   padding: 5px 0px 15px 0px;
 }
@@ -349,7 +351,8 @@ footer {
     font-size: 1.6rem;
   }
   .portfolio-card {
-    max-width: 700px;
+    min-width: 650px;
+    max-width: 1200px;
   }
   .portfolio-image {
     height: auto;

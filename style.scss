@@ -259,6 +259,7 @@ nav {
   justify-content: center;
   align-items: center;
   position: relative;
+  text-align: center;
   .contact-title {
     font-size: 2.2rem;
     margin-bottom: 5px;
@@ -274,39 +275,38 @@ nav {
   .contact-text {
     color: $primary-blue;
   }
-}
+  .contact-links-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    text-align: left;
+    margin-top: 25px;
+  }
+  
+  .contact-link {
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: #002347;
+  }
 
-.contact-links-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  margin-top: 25px;
-}
-
-.contact-link {
-  font-size: 1.6rem;
-  text-decoration: none;
-  color: #002347;
-}
-
-footer {
-  position: absolute;
-  bottom: 0px;
-  width: 100%;
-  background: $primary-blue;
-  color: $primary-orange;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.6rem;
-  font-style: italic;
-  padding: 5px 0px 15px 0px;
-}
-
-.section-scroller-about {
-  position: absolute;
-  bottom: 25px;
-  margin-bottom: 5px;
+  footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background: $primary-blue;
+    color: $primary-orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    font-style: italic;
+    padding: 5px 0px 15px 0px;
+  }
+  .section-scroller-about {
+    position: absolute;
+    bottom: 25px;
+    margin-bottom: 10px;
+  }
 }
 
 .scroller-blue {

@@ -244,6 +244,7 @@ nav .nav-button-link .nav-bracket {
   justify-content: center;
   align-items: center;
   position: relative;
+  text-align: center;
 }
 .contact-section .contact-title {
   font-size: 2.2rem;
@@ -258,21 +259,19 @@ nav .nav-button-link .nav-bracket {
 .contact-section .contact-text {
   color: #002347;
 }
-
-.contact-links-container {
+.contact-section .contact-links-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: nowrap;
+  text-align: left;
   margin-top: 25px;
 }
-
-.contact-link {
+.contact-section .contact-link {
   font-size: 1.6rem;
   text-decoration: none;
   color: #002347;
 }
-
-footer {
+.contact-section footer {
   position: absolute;
   bottom: 0px;
   width: 100%;
@@ -285,11 +284,10 @@ footer {
   font-style: italic;
   padding: 5px 0px 15px 0px;
 }
-
-.section-scroller-about {
+.contact-section .section-scroller-about {
   position: absolute;
   bottom: 25px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .scroller-blue {

@@ -39,7 +39,7 @@ nav .link-container {
   flex-direction: row;
 }
 nav .nav-button-link {
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   color: #ff8e00;
   text-decoration: none;
   padding: 15px 0;
@@ -305,7 +305,7 @@ nav .nav-button-link .nav-bracket {
     margin-top: 5px;
   }
   .nav-button-link {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     padding: 10px 0;
   }
   .nav-bracket {

@@ -321,7 +321,7 @@ nav .nav-button-link .nav-bracket {
     padding: 0px;
   }
   .about-section, .contact-section {
-    height: 100vh;
+    height: 900px;
   }
   .portfolio-section {
     height: auto;
@@ -350,7 +350,7 @@ nav .nav-button-link .nav-bracket {
   }
   .portfolio-card {
     min-width: 650px;
-    max-width: 1200px;
+    max-width: 1000px;
   }
   .portfolio-image {
     height: auto;

@@ -234,6 +234,10 @@ nav .nav-button-link .nav-bracket {
   color: #ff8e00;
 }
 
+.contact-text-container {
+  padding: 10px 10px;
+}
+
 .contact-section {
   background: #ff8e00;
   width: 100%;
@@ -247,11 +251,11 @@ nav .nav-button-link .nav-bracket {
   text-align: center;
 }
 .contact-section .contact-title {
-  font-size: 2.2rem;
+  font-size: 2rem;
   margin-bottom: 5px;
 }
 .contact-section .contact-text {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   font-style: italic;
   margin-top: 5px;
 }
@@ -385,7 +389,7 @@ nav .nav-button-link .nav-bracket {
   }
   .scroller-contact, .section-scroller-contact {
     position: absolute;
-    bottom: 10px;
+    bottom: 0;
   }
   .fa-bounce-hover:hover {
     animation: fa-bounce 0.5s ease-in-out;

@@ -249,6 +249,10 @@ nav {
   color: $primary-orange;
 }
 
+.contact-text-container {
+  padding: 10px 10px;
+}
+
 .contact-section {
   background: $primary-orange;
   width: 100%;
@@ -261,12 +265,12 @@ nav {
   position: relative;
   text-align: center;
   .contact-title {
-    font-size: 2.2rem;
+    font-size: 2rem;
     margin-bottom: 5px;
   }
 
   .contact-text {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     font-style: italic;
     margin-top: 5px;
   }
@@ -427,7 +431,7 @@ nav {
 
   .scroller-contact, .section-scroller-contact {
     position: absolute;
-    bottom: 10px;
+    bottom: 0;
   }
 
   .fa-bounce-hover:hover {
